@@ -1,0 +1,23 @@
+.agentList img{
+	width: 100%;
+}
+.agentList-info-icon li {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+}
+.agentList-info{
+	height: 140px;
+}
+.agentList-item:hover .agentList-info {
+    border-style: none solid solid;
+    border-color: #ed7b00;
+    box-shadow: 2px 2px 20px 10px #f9e76c;
+}
+.agentList-item:hover .agentList-info-icon li{
+	display: block;
+}

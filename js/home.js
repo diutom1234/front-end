@@ -1,0 +1,90 @@
+$('.mySlide').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        1024:{
+            items:1
+        }
+    }
+})
+$('.slideOurAgent').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        992:{
+            items:4
+        }
+    }
+})
+$('.slidenewsAndStories').owlCarousel({
+    loop:true,
+    margin:10,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        }
+    }
+})
+$('.slideourPartners').owlCarousel({
+    loop:true,
+    margin:10,
+    responsive:{
+        0:{
+            items:2
+        },
+        768:{
+            items:3
+        },
+        992:{
+            items:5
+        }
+    }
+})
+$('.slideourTestimonials').owlCarousel({
+    loop:true,
+    margin:10,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        992:{
+            items:1
+        }
+    }
+});
+$(document).on('click', '.contact', function(){
+	if($('.mySlide').css('display') === 'block'){
+		$('.mySlide').css('display', 'none');
+	}else{
+		$('.mySlide').css('display', 'block');
+	}
+})
+$(document).on('click', '.otherFeature', function(){
+    if($('.otherFeature-list').css('display') === "none"){
+        $('.otherFeature-list').slideDown();
+        $(this).find('.fas').removeClass('fa-plus').addClass('fa-minus');
+    }else{
+        $(this).find('.fas').removeClass('fa-minus').addClass('fa-plus');
+        $('.otherFeature-list').slideUp();
+    }
+})

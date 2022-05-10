@@ -1,0 +1,129 @@
+.headerForm-list{
+	display: none;
+}
+.plus-advanced{
+	border-radius: 50%;
+}
+.listingGrid .pathPistingGrid li + ::before{
+    content: "- ";
+    padding: 0 10px;
+    color: #8e99a3;
+}
+.listingGrid-sidebar img,
+.listingGrid-main img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.listingGrid-sidebar-img,
+.listingGrid-main-img{
+	width: 40%;
+	height: auto;
+}
+.listingGrid-sidebar-text,
+.listingGrid-main-text{
+	width: 60%;
+}
+.phu_de_listingGrid{
+	width: 100%;
+	position: absolute;
+    top:30%;
+    height: 80px;
+}
+.phu_de_listingGrid::before{
+    content: 'BookStore';
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transform: scale(0,1);
+}
+.listingGrid-main-img:hover .phu_de_listingGrid:before{
+    transform: scale(1,1);
+}
+.phu_de_listingGrid::after{
+	align-self: center;
+    content:'pnVDieu';
+    color: #e00045;
+    text-shadow: 5px 5px 10px #eb9d31;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    line-height: 80px;
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transform: scale(1,0);
+}
+.phu_de_listingGrid::after{
+    font-size: 20px;
+}
+.listingGrid-main-img:hover .phu_de_listingGrid:after{
+    transform: scale(1,1);
+}
+.listingGrid-main-img img{
+	transition: transform .5s;
+	opacity: 0.9;
+	background-image: linear-gradient(-180deg ,rgba(1,1,1,0), rgba(0 , 0, 0, 1));
+}
+.listingGrid-main-img:hover img{
+	transform: rotate(0deg) scale(1.5);
+	opacity: 1;
+}
+@media screen and (max-width: 992px){
+	.listingGrid-main{
+		order:1;
+	}
+	.listingGrid-sidebar{
+		order: 2;
+	}
+	.listingGrid-sidebarBottom li{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 768px){
+	.listingGrid-sidebarBottom li{
+		width: 100%;
+	}
+	.listingGridPagination-Middle li{
+		display: none;
+	}
+	.listingGrid-sidebarBottom li{
+		width: 80%;
+	}
+	.headerForm-advanced{
+		order: 1;
+	}
+	.headerForm-list{
+		order: 2;
+		margin-bottom: 15px;
+	}
+	.headerForm-searchAdvanced{
+		order: 3;
+	}
+}
+@media screen and (max-width: 576px){
+	.listingGrid-sidebarBottom li{
+		width: 100%;
+	}
+	.listingGrid-main-img,
+	.listingGrid-main-text{
+		width: 100%;
+	}
+	.listingGrid-main-text{
+		padding-top: 15px;
+	}
+	.listingGrid-main-item{
+		flex-wrap: wrap;
+	}
+}

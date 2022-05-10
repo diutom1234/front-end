@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="../css/all.css">
+	<link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+	<div id="container">
+		<h1>Đăng nhập</h1>
+		<form id="form">
+			<table id="table">
+				<tr class="row">
+					<td class="col col1">Họ và tên</td>
+					<td class="col col2">
+						<input class="check" type="text" placeholder="Nhập họ tên ...">
+						<i class="fas fa-exclamation-circle"></i>
+					</td>
+					<td class="col col3"><p class="note">Yêu cầu nhập đầy đủ họ tên</p></td>
+				</tr>
+				<tr>
+					<td class="col col1">Giới tính</td>
+					<td colspan="2" class="col col2 col-gender">
+						<div><label><input id="nam" type="radio" name="gender" onclick="setValueNam()">Nam</label></div>
+						<div><label><input id="nu" type="radio" name="gender" onclick="setValueNu()">Nữ</label></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="col col1">Email</td>
+					<td class="col col2">
+						<input class="check" type="text" placeholder="Nhập email ...">
+						<i class="fas fa-exclamation-circle"></i>
+					</td>
+					<td class="col col3">
+						<p class="note">Yêu cầu nhập email</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="col col1">Số điện thoại</td>
+					<td class="col col2">
+						<input class="check" type="text" placeholder="Nhập số điện thoại ...">
+						<i class="fas fa-exclamation-circle"></i>
+					</td>
+					<td class="col col3">
+						<p class="note">Yêu cầu nhập số điện thoại</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="col col1">Mật khẩu</td>
+					<td class="col col2 col-pass">
+						<input class="check" id="password" type="password" required>
+						<span><i class="fas fa-eye" id="eye"></i></span>
+						<i class="fas fa-exclamation-circle"></i>
+					</td>
+					<td class="col col3"><p class="note">Yêu cầu nhập mật khẩu</p></td>
+				</tr>
+				<tr>
+					<td class="col col1">Xác nhận mật khẩu</td>
+					<td class="col col2 col-pass">
+						<input class="check" id="cfpassword" type="password" required>
+						<span><i class="fas fa-eye" id="cfeye"></i></span>
+						<i class="fas fa-exclamation-circle"></i>
+					</td>
+					<td class="col col3"><p class="note">Yêu cầu xác nhận mật khẩu</p></td>
+				</tr>
+			</table>
+			<div id="push">
+				<input id="submit" type="button" value="Đăng nhập">
+				<input id="refresh" type="button" value="Xóa trắng" onclick="refreshValue()">
+				<a href="../index.html"><input id="return" type="button" value="Về trang chủ"></a>
+			</div>
+		</form>
+	</div>
+	<script src="../js/login.js"></script>
+</body>
+</html>

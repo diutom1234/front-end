@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>House-Detail</title>
+	<link rel="stylesheet" href="../css/all.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;567&family=Kaushan+Script&family=Licorice&family=Pacifico&family=Ubuntu:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/header-footer.css">
+	<link rel="stylesheet" href="../css/about.css">
+	<link rel="stylesheet" href="../css/house_detail.css">
+	<link rel="stylesheet" href="../css/house_list.css">
+	<link rel="stylesheet" href="../css/home.css">
+	<link rel="stylesheet" href="../css/owl.carousel.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<style>
+</style>
+</head>
+<body>
+	<div class="homeBook">
+	</div>
+	<div class="register-box position-absolute bg-light">
+		<a href="https://www.facebook.com/dieucuteahehe/">
+			<div class="bg-primary border border-0 w-100 p-2 mb-4">
+				<i class="register-box-icon fab fa-facebook-f text-light size-20 mr-md-5 mr-sm-2 mr-1 ml-md-4 ml-sm-2 ml-1"></i>
+				<span class="register-box-text text-light font-weight-bolder size-20">Ngô Diệu</span>
+			</div>
+		</a>
+		<a href="https://www.instagram.com/lucxu1010/">
+			<div class="bg-primary border border-0 w-100 p-2 mb-4">
+				<i class="register-box-icon fab fa-instagram text-light size-20 mr-md-5 mr-sm-2 mr-1 ml-md-4 ml-sm-2 ml-1"></i>
+				<span class="register-box-text text-light font-weight-bolder size-20">lucxu1010</span>
+			</div>
+		</a>
+		<a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
+			<div class="bg-primary border border-0 w-100 p-2 mb-4">
+				<i class="register-box-icon fas fa-at text-light size-20 mr-md-5 mr-sm-2 mr-1 ml-md-4 ml-sm-2 ml-1"></i>
+				<span class="register-box-text text-light font-weight-bolder size-20">pnvdieu@gmail.com</span>
+			</div>
+		</a>
+	</div>
+	<header class="position-relative">
+		<div class="headerTop">
+			<div class="container">
+				<div class="row pt-2 pb-2 text-blue-1">
+					<div class="col-4 align-self-center overflow-hidden">
+						<time datetime="2022-02-25" class="TopBarTime ">Thứ 2: 08.00 AM - 18.00 PM</time>
+					</div>
+					<div class="col-8 text-right">
+						<ul class="m-0 d-flex justify-content-end">
+							<li class="pl-3 pr-3 border border-top-0 border-left-0 border-bottom-0 border-secondary icon-contact-li">
+								<ul class="icon-contact ">
+									<li class="ml-3 "><a href="#"><i class="fab fa-facebook-f text-blue-3"></i></a></li>
+									<li class="ml-3"><a href="#"><i class="fab fa-twitter text-blue-3"></i></a></li>
+									<li class="ml-3"><a href="#"><i class="fab fa-instagram text-blue-3"></i></a></li>
+									<li class="ml-3"><a href="#"><i class="fab fa-google text-blue-3"></i></a></li>
+								</ul>
+							</li>
+							<li class="dropdown pl-3 pr-3 border border-top-0 border-left-0 border-bottom-0 border-secondary">
+	    						<a class="dropdown-toggle text-blue-1" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+	       						USD ($) </a>
+	    						<div class="dropdown-menu">
+	      							<a class="dropdown-item" href="#">USD</a>
+	      							<a class="dropdown-item" href="#">VND</a>
+	      							<a class="dropdown-item" href="#"><i class="fas fa-yen-sign"></i></a>
+								</div>
+							</li>
+							<li class="dropdown pl-3 pr-3">
+	    						<a class="dropdown-toggle text-blue-1" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+	       						Tiếng Việt</a>
+	    						<div class="dropdown-menu">
+	      							<a class="dropdown-item" href="#">English</a>
+	      							<a class="dropdown-item" href="#">日本語</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="headerMiddle position-relative">
+			<div class="container">
+				<div class="row pt-4 pb-4 size-13">
+					<div class="col-md-2 col-6 align-self-center">
+						<img src="../image/logo.png" alt="" class="img-fluid">
+					</div>
+					<div class="col-md-10 col-6">
+						<ul class="m-0 d-flex justify-content-end text-dark">
+							<li class="pl-md-3 pr-md-3 d-flex">
+								<div class="header-phone mr-2">
+									<i class="fas fa-phone-alt text-info"></i>
+								</div>
+								<div class="header-phone-text">
+									<div>0375384273</div>
+									<div>pnvdieu@gmail.com</div>
+								</div>
+							</li>
+							<li class="pl-md-3 pr-md-3 d-flex header-map">
+								<div class="header-phone mr-2">
+									<i class="fas fa-map-marker-alt text-info"></i>
+								</div>
+								<div class="">
+									<div>Chi Trung, Tân Chi, Tiên Du</div>
+									<div>Bắc Ninh, Việt Nam</div>
+								</div>
+							</li>
+							<li class=" pl-md-3 pr-md-3 header-search">
+								<i class="fas fa-search text-blue-1 border p-3 btnSearch"></i>
+							</li>
+							<li class="bars d-none align-self-center ml-2"><i class="fas fa-bars"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="search-box position-absolute">
+				<div class="custom-file">
+			      	<div class="input-group">
+				        <div class="input-group-prepend">
+				          	<div class="input-group-text"><i class="fas fa-search btnSearch"></i></div>
+				        </div>
+				        <input type="text" class="form-control" id="" placeholder="Search Everything ...">
+				    </div>
+			    </div>
+			</div>
+		</div>
+		<div class="headerBottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="row position-absolute headerBottom_absolute w-100">
+							<div class="col-12 d-flex">
+								<div class="header-list pt-3 pb-3">
+									<div class="d-flex header-list-child">
+				                    	<div class="active align-self-center ">
+				                        	<a class="text-light pl-4 home" href="#">Trang chủ <i class="fas fa-angle-down"></i></a>
+				                        	<div class="dropdown-menu dropdown-menu-home bg-light pl-4 mt-4 home_list">
+								                <ul class="list-unstyled">
+								                    <li class="pt-4"><a class="text-muted" href="../index.html">Trang chủ 1</a></li>
+								                </ul>
+									        </div>
+				                        </div>
+				                        <div class="active align-self-center ">
+				                        	<a class="text-light pl-4 properties" href="#">Sách <i class="fas fa-angle-down"></i></a>
+				                        </div>
+				                        <div class="active align-self-center ">
+				                        	<a class="text-light pl-4 pages" href="#">Chi tiết <i class="fas fa-angle-down"></i></a>
+				                        	<div class="dropdown-menu dropdown-menu-pages bg-light pl-4 mt-4 pages_list">
+								                <ul class="list-unstyled">
+								                    <li class="pt-4"><a class="text-muted" href="house_detail.html">Tác phẩm hay</a></li>
+								                    <li class="pt-4"><a class="text-muted" href="about.html">Chúng tôi</a></li>
+								                    <li class="pt-4"><a class="text-muted" href="agent_list.html">Tác Giả</a></li>
+								                    <li class="pt-4"><a class="text-muted" href="agent_detail.html">Chi tiết Tác Giả</a></li>
+								                </ul>
+									        </div>
+				                        </div>
+				                        <div class="active align-self-center ">
+				                        	<a class="text-light pl-4 blog" href="#">Blog <i class="fas fa-angle-down"></i></a>
+				                        	<div class="dropdown-menu dropdown-menu-blog bg-light pl-4 mt-4 blog_list">
+								                <ul class="list-unstyled">
+								                    <li class="pt-4"><a class="text-muted" href="blog.html">Blog</a></li>
+								                    <li class="pt-4"><a class="text-muted" href="blog_detail.html">Blog detail</a></li>
+								                </ul>
+									        </div>
+				                        </div>
+				                        <div class="active align-self-center ">
+				                        	<a class="text-light pl-4 contact" href="#">Liên hệ</a>
+				                        </div>
+									</div>
+								</div>
+								<button class="header-login">
+		                        	<div class="d-flex justify-content-center">
+			                    		<div><a href="login.html"><i class="far fa-user text-light"></i></a></div>
+			                    		<div class=" header-login-text"><a class="text-light" href="login.html">Đăng nhập</a></div>
+			                    	</div>
+								</button>
+		                    	<button class="header-register">
+			                    	<div class="d-flex justify-content-center">
+			                    		<div><a href="#"><i class="fas fa-pencil-alt text-light"></i></a></div>
+			                    		<div class=" header-register-text"><a href="#" class="text-light">Đăng kí</a></div>
+			                    	</div>
+		                    	</button>
+								<button class="submit-property text-light text-center align-self-center pt-3 pb-3 border border-0"> + Đóng Góp</button>
+							</div>
+						    <div class="col-md-12 properties_list">
+					            <div class="d-flex bg-light pt-4 pl-5">
+					                <ul class="properties_list_choose list-unstyled col-md-3">
+					                    <p class="submenu-title font-weight-bolder size-20 properties_list_title">TOÀN BỘ SÁCH</p>
+					                    <li><a href="house_list.html">Danh sách truyện</a></li>
+					                    <li><a href="#">Khác</a></li>
+					                </ul>
+					                <ul class="list-unstyled col-md-3 properties_list_choose">
+					                    <p class="submenu-title font-weight-bolder size-20 properties_list_title">TOP BÁN CHẠY</p>
+					                    <li><a href="#">404</a></li>
+					                    <li><a href="#">Từ 5 sao</a></li>
+					                    <li><a href="#">Từ 4 sao</a></li>
+					                    <li><a href="#">Từ 3 sao</a></li>
+					                </ul>
+					                <ul class="list-unstyled col-md-3 properties_list_choose">
+					                    <p class="submenu-title  font-weight-bolder size-20 properties_list_title">SÁCH MỚI</p>
+					                    <li><a href="#">404</a></li>
+					                    <li><a href="#">Xếp Theo Nhà Sách</a></li>
+					                    <li><a href="#">Xếp Theo Thể Loại</a></li>
+					                    <li><a href="#">Ưu đãi</a></li>
+					                </ul>
+					                <ul class="list-unstyled col-md-3 properties_list_choose">
+					                    <p class="submenu-title font-weight-bolder size-20 properties_list_title">ĐƯỢC YÊU THÍCH</p>
+					                    <li><a href="#">404</a></li>
+					                    <li><a href="#">Xếp Theo Nhà Sách</a></li>
+					                    <li><a href="#">Xếp Theo Thể Loại</a></li>
+					                    <li><a href="#">Ưu đãi</a></li>
+					                </ul>
+					            </div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29799.884209116957!2d105.8561134!3d20.9932173!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1645889989506!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" style="object-fit: cover; position: absolute; z-index: 3; top: 0" class="ggmap"></iframe>
+		</section>
+		<div class="overflow-hidden">
+			<div class="houseDetail-header w-100">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-6 flex-column mt-5 pt-md-5">
+							<div class="d-none d-md-block text-center houseDetail-header-leftRight">
+								<a href="#" class=""><i class="fas fa-angle-right text-blue-1 size-35"></i></a>
+							</div>
+							<div class="d-none d-md-block text-center houseDetail-header-leftRight">
+								<a href="#" class=""><i class="fas fa-angle-left text-blue-1 size-35"></i></i></a>
+							</div>
+						</div>
+						<div class="col-6 flex-column mt-5 pt-md-5">
+							<div class="d-flex justify-content-end houseDetail-header-none">
+								<div class="d-none d-md-block houseDetail-header-none-icon">
+									<a href="#" class="d-flex justify-content-around h-100">
+										<i class="fas fa-image text-blue-1 size-30 align-self-center"></i>
+									</a>
+								</div>
+								<div class="houseDetail-header-none-text pr-3 pl-3 text-light size-13 d-none">
+									Đọc thử
+								</div>
+							</div>
+							<div class="d-flex justify-content-end houseDetail-header-none">
+								<div class="d-none d-md-block houseDetail-header-none-icon">
+									<a href="#" class="d-flex justify-content-around h-100">
+										<i class="fas fa-map-marker-alt text-blue-1 size-30 align-self-center"></i>
+									</a>
+								</div>
+								<div class="houseDetail-header-none-text pr-3 pl-3 text-light size-13 d-none">
+									Xem bìa
+								</div>
+							</div>
+							<div class="d-flex justify-content-end houseDetail-header-none">
+								<div class="d-none d-md-block houseDetail-header-none-icon">
+									<a href="#" class="d-flex justify-content-around h-100">
+										<i class="fas fa-street-view text-blue-1 size-30 align-self-center"></i>
+									</a>
+								</div>
+								<div class="houseDetail-header-none-text pr-3 pl-3 text-light size-13 d-none">
+									Xem đánh giá
+								</div>
+							</div>
+							<div class="d-flex justify-content-end houseDetail-header-none">
+								<div class="d-none d-md-block houseDetail-header-none-icon">
+									<a href="#" class="d-flex justify-content-around h-100">
+										<i class="fas fa-camera text-blue-1 size-30 align-self-center"></i>
+									</a>
+								</div>
+								<div class="houseDetail-header-none-text pr-3 pl-3 text-light size-13 d-none">
+									Xem ảnh
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container w-100 d-flex">
+					<div class="row align-self-end w-100">
+						<div class="col-12 col-md-8 ">
+							<ul class="about-header-title d-flex mb-0" style="gap: 10px">
+								<li><a href="../index.html" class="size-13 text-ccc returnPage">Trang chủ</a></li>
+								<li><a href="../index.html" class="size-13 text-ccc returnPage">Sách</a></li>
+								<li><a href="#" class="size-13 text-ccc returnPage">Chế độ xem lưới</a></li>
+							</ul>
+							<div class="d-flex flex-wrap">
+								<span class="size-30 text-light font-weight-bolder mb-0">Từng có người yêu tôi như sinh mệnh</span>
+								<div>
+									<button class="btn btn-success pr-5 pl-5 size-12 h-100 ml-3">For Sale</button>
+								</div>
+							</div>
+							<address class="text-ccc d-flex">
+								<div class="icn mr-3 align-self-center"><i class="fas fa-user size-13"></i></div>
+								<div class="size-13 align-self-center">Thư Nghi</div>
+							</address>
+						</div>
+						<div class="col-12 col-md-4 align-self-center h-100 text-right flex-column houseDetail-header-share">
+							<ul class="houseDetail-header-icon d-flex justify-content-end">
+								<li class="pt-3 mr-md-0 mr-5">
+									<a href="#">
+										<i class="fas fa-redo text-blue-1 size-22 houseDetail-header-icon-info"></i>
+									</a>
+								</li>
+								<li class="position-relative about-header-share pt-3 pl-md-5 pr-5">
+									<a href="#">
+										<i class="fas fa-share-alt text-blue-1 size-22 houseDetail-header-icon-info"></i>
+									</a>
+									<div class="about-header-info d-flex position-absolute" style="top: -40px; left: 0">
+										<div class="bg-blue-5 text-center align-self-center">
+											<a href="#"><i class="fab fa-facebook-f text-light"></i></a>
+										</div>
+										<div class="bg-blue-5 text-center align-self-center">
+											<a href="#"><i class="fab fa-twitter text-light"></i></a>
+										</div>
+										<div class="bg-blue-5 text-center align-self-center">
+											<a href="#"><i class="fab fa-instagram text-light"></i></a>
+										</div>
+										<div class="bg-blue-5 text-center align-self-center">
+											<a href="#"><i class="fab fa-google text-light"></i></a>
+										</div>
+									</div>
+								</li>
+								<li class="pt-3 pr-5">
+									<a href="#">
+										<i class="fas fa-heart text-blue-1 size-22 houseDetail-header-icon-info"></i>
+									</a>
+								</li>
+								<li class="pt-3">
+									<a href="#">
+										<i class="fas fa-print text-blue-1 size-22 houseDetail-header-icon-info"></i>
+									</a>
+								</li>
+							</ul>
+							<div>
+								<strong class="size-30 text-light">$ 490,000</strong>
+							</div>
+							<div class="size-16 text-ccc">
+								$770 / sq ft
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="house-detail-menu bg-white position-sticky border border-left-0 border-right-0 border-top-0 border-muted" style="top: 0; z-index: 1">
+			<div class="container">
+				<div class="row ">
+					<div class="col-12 d-flex flex-wrap pt-4 pb-4 justify-content-between">
+						<a href="#detail" class="size-13 text-blue-1">Chi tiết</a>
+						<a href="#description" class="size-13 text-blue-1">Mô tả</a>
+						<a href="#address" class="size-13 text-blue-1">Kho</a>
+						<a href="#features" class="size-13 text-blue-1">Mục Lục</a>
+						<a href="#video" class="size-13 text-blue-1">Video</a>
+						<a href="#floorPlans" class="size-13 text-blue-1">Bìa sách</a>
+						<a href="#walkScores" class="size-13 text-blue-1">Thời gian đọc</a>
+						<a href="#pageViews" class="size-13 text-blue-1">Số lượt xem</a>
+						<a href="#filesAttachments" class="size-13 text-blue-1">Tệp đính kèm</a>
+						<a href="#reviews" class="size-13 text-blue-1">Nhận xét</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="bg-blue-4 pt-5 pb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-12 house-detail-main">
+						<div class="p-4 bg-white mb-4" id="detail">
+							<p class="size-26 text-blue-5 font-weight-bolder">Chi tiết</p>
+							<ul class="d-flex justify-content-between mb-0 size-13  border border-left-0 border-right-0 border-muted pt-4 pb-2 mb-5">
+								<li>
+									<p class="text-dark mb-0 font-weight-bold">Trang</p>
+									<p class="text-muted">2100 m2</p>
+								</li>
+								<li>
+									<p class="text-dark mb-0 font-weight-bold">Đọc thử</p>
+									<p class="text-muted">3</p>
+								</li>
+								<li>
+									<p class="text-dark mb-0 font-weight-bold">Còn</p>
+									<p class="text-muted">2</p>
+								</li>
+								<li>
+									<p class="text-dark mb-0 font-weight-bold">Bán</p>
+									<p class="text-muted">1</p>
+								</li>
+							</ul>
+							<div class="row">
+								<div class="col-12 col-md-6">
+									<ul>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">ID</span>
+											<span class="w-50 text-blue-1 size-13">: HS5698</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Tác giả</span>
+											<span class="w-50 text-blue-1 size-13">: Thư Nghi</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Số trang</span>
+											<span class="w-50 text-blue-1 size-13">: 580 SqFt</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Kích thước</span>
+											<span class="w-50 text-blue-1 size-13">: 14,5 x 20,5 cm</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Đọc thử</span>
+											<span class="w-50 text-blue-1 size-13">: 20%</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Phiên bản</span>
+											<span class="w-50 text-blue-1 size-13">: 896 Sqft</span>
+										</li>
+									</ul>
+								</div>
+								<div class="col-12 col-md-6">
+									<ul>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Loại bìa</span>
+											<span class="w-50 text-blue-1 size-13">: Furnished (Furnished)</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Năm xuất bản</span>
+											<span class="w-50 text-blue-1 size-13">: 2017</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Nhà xuất bản</span>
+											<span class="w-50 text-blue-1 size-13">: Nhã Nam</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Nội dung</span>
+											<span class="w-50 text-blue-1 size-13">: Clubhouse</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Bán</span>
+											<span class="w-50 text-blue-1 size-13">: Grill - Gas</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Thuê</span>
+											<span class="w-50 text-blue-1 size-13">: Combi (Natural Gas)</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="p-4 bg-white mb-4" id="description">
+							<p class="size-20 text-blue-5 font-weight-bolder border border-left-0 border-right-0 border-top-0 border-muted pb-3 mb-4">Mô tả</p>
+							<div class="size-13 text-blue-1">
+								Từng Có Người Yêu Tôi Như Sinh Mệnh thời còn trẻ chúng ta thường không hiểu thế nào là tình yêu. Lúc mới bước vào đời, tôi từng nghĩ tình yêu có thể vượt qua tất cả. Khi đó tôi không biết trên đời này tồn tại một sức mạnh gọi là số phận, chúng ta chỉ có thể chấp nhận mà không thể thay đổi. Lúc tôi ở trong phòng tắm của trường học và cất cao tiếng hát "I love you more than I can say", tôi không hề hay biết, câu chuyện đó sẽ có một ngày xảy ra với tôi. Tôi gặp anh lần đầu tiên là ở một tình huống đẫm máu tại thành phố Odessa, đất nước Ukraine...
+							</div>
+						</div>
+						<div class="p-4 bg-white mb-4" id="address">
+							<div class="border border-left-0 border-right-0 border-top-0 border-muted pb-3 mb-5 d-flex flex-wrap justify-content-between">
+								<p class="size-20 text-blue-5 font-weight-bolder ">Chi tiết</p>
+								<a href="#" type="button" class="btn btn-info align-self-center">
+									<address class="text-light d-flex mb-0">
+										<div class="icn mr-3 align-self-center"><i class="fas fa-map-marker-alt size-13"></i></div>
+										<div class="size-13 align-self-center">Xem bản đọc thử</div>
+									</address>
+								</a>
+							</div>
+							<div class="row">
+								<div class="col-md-6 col-12">
+									<ul>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Công ty phát hành</span>
+											<span class="w-50 text-blue-1 size-13">: The Village, Jersey City...</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">City</span>
+											<span class="w-50 text-blue-1 size-13">: Chicago</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Dịch Giả</span>
+											<span class="w-50 text-blue-1 size-13">: New Jersey</span>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-6 col-12">
+									<ul>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Tồn kho</span>
+											<span class="w-50 text-blue-1 size-13">: 07305</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Ưu đãi</span>
+											<span class="w-50 text-blue-1 size-13">: United States</span>
+										</li>
+										<li class="w-100 d-flex mb-3">
+											<span class="w-50 font-weight-bold text-blue-5 size-13">Sách tương tự</span>
+											<span class="w-50 text-blue-1 size-13">: Hermosa</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="p-4 bg-white mb-4" id="features">
+							<div class="border border-left-0 border-right-0 border-top-0 border-muted mb-5 d-flex flex-wrap justify-content-between">
+								<p class="size-20 text-blue-5 font-weight-bolder ">Mục Lục</p>
+							</div>
+							<div class="row">
+								<div class="col-12 col-md-6 col-lg-4">
+									<ul class=" mb-0">
+			                            <li class="">
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 1
+				                            </label>
+				                        </li>
+				                        <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 2
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 3
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 4
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 5
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 6
+				                            </label>
+			                            </li>
+			                        </ul>
+								</div>
+								<div class="col-12 col-md-6 col-lg-4">
+									<ul class=" mb-0">
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 7
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 8
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 9
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 10
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 11
+				                            </label>
+			                            </li>
+			                        </ul>
+								</div>
+								<div class="col-12 col-md-6 col-lg-4">
+									<ul class=" mb-0">
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 12
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 13
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 14
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 15
+				                            </label>
+			                            </li>
+			                            <li>
+				                            <label class="size-13 text-blue-5 font-weight-bold">
+				                                <input type="checkbox">Chương 16
+				                            </label>
+			                            </li>
+			                        </ul>
+								</div>
+							</div>
+						</div>
+						<div class="p-4 bg-white mb-4" id="video">
+							<div class="border border-left-0 border-right-0 border-top-0 border-muted mb-5 d-flex flex-wrap justify-content-between">
+								<p class="size-20 text-blue-5 font-weight-bolder ">Video</p>
+							</div>
+							<iframe class="w-100 h-auto" src="https://www.youtube.com/embed/7aYkFMkPknI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="p-4 bg-white mb-4" id="floorPlans">
+							<div class="border border-left-0 border-right-0 border-top-0 border-muted mb-5 d-flex flex-wrap justify-content-between">
+								<p class="size-20 text-blue-5 font-weight-bolder ">Bìa sách</p>
+								<div>
+									<a type="button" class="btn-firstFloor btn btn-info align-self-center size-13 text-light">Bìa trước
+									</a>
+									<a type="button" class="btn-secondFloor btn btn-secondary align-self-center size-13 text-light">Bìa sau
+									</a>
+								</div>
+							</div>
+							<div>
+								<div class="w-50 mr-auto ml-auto">
+									<img src="../image/img24.png" class="img-firstFloor h-auto w-100 img-thumbnail" alt="">
+								</div>
+								<div class="w-50 mr-auto ml-auto">
+									<img src="../image/img25.jpg" class="img-secondFloor h-auto w-100 img-thumbnail" alt="">
+								</div>
+								<div class="w-75 mr-auto ml-auto">
+									<p class="size-13 text-blue-1 text-center mt-4">" Cô bé của tôi , chúc em một đời bình an vui vẻ. Cứ tiến về phía trước , sẽ có người yêu em hơn tôi ! "</p>
+								</div>
+							</div>
+						</div>
+						<div class="p-4 bg-white mb-4" id="walkScores">
+							<p class="size-20 text-blue-5 font-weight-bolder border border-left-0 border-right-0 border-top-0 border-muted pb-3 mb-4">Thời gian đọc</p>
+							<div class="d-flex flex-wrap justify-content-between">
+								<div class="d-flex">
+									<div class="border border-success text-center align-self-center" style="border-radius: 50%; width: 50px; height: 50px; line-height: 50px">
+										<i><strong class="size-15 text-success">25</strong></i>
+									</div>
+									<div class="align-self-center pl-2">
+										<div class="size-14 text-blue-5"><strong>Phút</strong></div>
+										<div class="size-13 text-blue-1">Chương</div>
+									</div>
+								</div>
+								<div class="">
+									<img src="../image/logo.png" alt="" class="img-fluid">
+									<div class="text-center">
+										<a href="#" class="size-13 text-info " style="text-decoration-line: underline;">hướng dẫn chi tiết hơn</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="p-4 bg-white mb-4" id="pageViews">
+							<p class="size-20 text-blue-5 font-weight-bolder border border-left-0 border-right-0 border-top-0 border-muted pb-3 mb-4">Số lượt xem</p>
+							<div>
+								<img src="../image/img19.jpg" class="w-100 h-auto" alt="">
+							</div>
+						</div>
+						<div class="p-4 bg-white mb-4" id="filesAttachments">
+							<p class="size-20 text-blue-5 font-weight-bolder border border-left-0 border-right-0 border-top-0 border-muted pb-3 mb-4">Tệp đính kèm</p>
+							<div class="d-flex flex-wrap">
+								<div class="d-flex mb-3">
+									<div>
+										<i class="fas fa-file-pdf text-danger size-35"></i>
+									</div>
+									<div class="size-13 align-self-center text-blue-1 pl-2 pr-3">
+										Chương 1
+									</div>
+								</div>
+								<div class="d-flex mb-3">
+									<div>
+										<i class="fas fa-file-pdf text-danger size-35"></i>
+									</div>
+									<div class="size-13 align-self-center text-blue-1 pl-2 pr-3">
+										Chương 2
+									</div>
+								</div>
+								<div class="d-flex mb-3">
+									<div>
+										<i class="fas fa-file-pdf text-danger size-35"></i>
+									</div>
+									<div class="size-13 align-self-center text-blue-1 pl-2 pr-3">
+										Chương 3
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="p-4 bg-white blogDetail-tags mb-4">
+							<div class="row mb-4 border border-top-0 border-right-0 border-left-0 border-muted pb-5">
+								<div class="col-md-8 col-12 size-20 font-weight-bolder align-self-center">
+									Xếp hạng &amp; Đánh giá
+								</div>
+								<div class="col-md-4 col-12 text-right">
+									<button type="submit" class=" w-100 pt-2 pb-2 bg-blue-7 text-light size-13">Viết bài đánh giá mới</button>
+								</div>
+							</div>
+							<div class="row mb-4 border border-top-0 border-right-0 border-left-0 border-muted pb-5">
+								<div class="col-md-8 col-12 ">
+									<div class="d-flex align-items-center">
+										<div>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<span class="size-13 text-blue-1 ml-1">3</span>
+										</div>
+										<div class="progress ml-2" style="width: 50%; height: 6px">
+											<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="d-flex align-items-center">
+										<div>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<span class="size-13 text-blue-1 ml-1">4</span>
+										</div>
+										<div class="progress ml-2" style="width: 50%; height: 6px">
+											<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="d-flex align-items-center">
+										<div>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<span class="size-13 text-blue-1 ml-1">3</span>
+										</div>
+										<div class="progress ml-2" style="width: 50%; height: 6px">
+											<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="d-flex align-items-center">
+										<div>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<span class="size-13 text-blue-1 ml-1">2</span>
+										</div>
+										<div class="progress ml-2" style="width: 50%; height: 6px">
+											<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="d-flex align-items-center">
+										<div>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<span class="size-13 text-blue-1 ml-1">0</span>
+										</div>
+										<div class="progress ml-2" style="width: 50%; height: 6px">
+											<div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-12 text-left">
+									<div class="bg-blue-6 p-4 text-center">
+										<i class="fas fa-star text-warning size-10"></i>
+										<i class="fas fa-star text-warning size-10"></i>
+										<i class="fas fa-star text-warning size-10"></i>
+										<i class="fas fa-star text-warning size-10"></i>
+										<i class="fas fa-star text-warning size-10"></i>
+										<div class="size-30 text-blue-5"><strong>4.3</strong></div>
+										<div class="size-14 text-blue-1">Đánh giá tổng thể</div>
+									</div>
+								</div>
+							</div>
+							<div class="row mb-4">
+								<div class="col-12 size-20 font-weight-bolder align-self-center mb-4">
+									3 Đánh giá
+								</div>
+								<div class="col-12 d-flex mb-4">
+									<a href="#" class=" overflow-hidden" style="width: 100px; height: 75px">
+										<img src="../image/img22.jpg" class="w-100 h-100 " style="object-fit: cover;" alt="">
+									</a>
+									<div class="w-100 d-flex flex-wrap justify-content-between">
+										<div class="text-info size-13 ml-2 align-self-top">
+											John Milk
+										</div>
+										<div class="ml-2">
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<span class="size-13 text-success">3/3/2022</span>
+										</div>
+										<div class="size-13 text-blue-1 ml-2">
+											Trong cuộc đời mỗi người, việc chuẩn bị tâm lý cho mỗi sáng thức dây ai cũng phải cần. Tuy nhiên, không phải ai cũng sống giống nhau các bạn ạ.
+										</div>
+									</div>
+								</div>
+								<div class="col-12 d-flex mb-4">
+									<a href="#" class=" overflow-hidden" style="width: 100px; height: 75px">
+										<img src="../image/img22.jpg" class="w-100 h-100 " style="object-fit: cover;" alt="">
+									</a>
+									<div class="w-100 d-flex flex-wrap justify-content-between">
+										<div class="text-info size-13 ml-2 align-self-top">
+											Ali Tufan
+										</div>
+										<div class="ml-2">
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<span class="size-13 text-success">3/3/2022</span>
+										</div>
+										<div class="size-13 text-blue-1 ml-2">
+											Bài học học mãi chưa bao giờ hết. Học cách chuẩn bị tâm lý cho mỗi một hành trình sắp tới không hề đơn giản.
+										</div>
+									</div>
+								</div>
+								<div class="col-12 d-flex mb-4">
+									<a href="#" class=" overflow-hidden" style="width: 100px; height: 75px">
+										<img src="../image/img23.jpg" class="w-100 h-100 " style="object-fit: cover;" alt="">
+									</a>
+									<div class="w-100 d-flex flex-wrap justify-content-between">
+										<div class="text-info size-13 ml-2 align-self-top">
+											Robert Tufan
+										</div>
+										<div class="ml-2">
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<span class="size-13 text-success">3/3/2022</span>
+										</div>
+										<div class="size-13 text-blue-1 ml-2">
+											Cuốn này đơn giản mà dễ đọc, lại vô cùng thú vị. Bạn đọc đi rồi tự kiếm cho mình “đàn bò” to bự để chăn. Mà chăn bò này không lấy sữa được mà chỉ muốn chúng biến mất thôi :))
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="yourReviewsp-4 p-4 bg-white mb-4" id="reviews">
+							<div class="row mb-4 border border-top-0 border-right-0 border-left-0 border-muted pb-3">
+								<div class="col-md-8 col-12 size-20 font-weight-bolder align-self-center">
+									Đánh giá của bạn
+								</div>
+							</div>
+							<form>
+								<div class="row">
+									<div class="col-12 col-md-6">
+										<div class="form-group">
+											<input type="text" placeholder="Your Name" class="form-control size-13">
+										</div>
+									</div>
+									<div class="col-12 col-md-6">
+										<div class="form-group">
+											<input type="email" placeholder="Email" class="form-control size-13">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12 col-md-6">
+										<div class="form-group">
+											<input type="tel" placeholder="Phone Number" class="form-control size-13">
+										</div>
+									</div>
+									<div class="col-12 col-md-6">
+										<div class="form-group">
+											<input type="url" placeholder="Website" class="form-control size-13">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<textarea class="form-control size-13" placeholder="Message" style="height: 100px;"></textarea>
+								</div>
+								<div class="form-group">
+									<span class="text-blue-1 size-13">Đánh giá: </span>
+									<i class="fas fa-star text-warning size-10"></i>
+									<i class="fas fa-star text-warning size-10"></i>
+									<i class="fas fa-star text-warning size-10"></i>
+									<i class="fas fa-star text-warning size-10"></i>
+									<i class="fas fa-star text-warning size-10"></i>
+								</div>
+								<button type="submit" class=" w-100 pt-2 pb-2 bg-blue-5 text-light size-20">Gửi</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12 house-detail-sidebar mb-4">
+						<div class="p-4 bg-white mb-4">
+							<div class="d-flex mb-3">
+								<a href="#" class=" overflow-hidden w-25" style="height: 75px">
+									<img src="../image/img22.jpg" class="w-100 h-100 " style="object-fit: cover;" alt="">
+								</a>
+								<div class="w-75 pl-3">
+									<div class="size-13 text-blue-5">Girls on Pieces</div>
+									<div class="size-13 text-blue-1">
+										Ali Tufan
+									</div>
+									<div class="text-info size-12 align-self-top">
+										John Milk
+									</div>
+								</div>
+							</div>
+							<div class="d-flex border border-info p-3 justify-content-center mb-3">
+								<div class="icn mr-3 align-self-center"><i class="fas fa-phone-volume size-30 text-info"></i></div>
+								<div class="align-self-center size-22 text-info">0375 384 273</div>
+							</div>
+							<form class="text-blue-1">
+								<div class="form-group">
+									<input class="size-13 w-100 border border-muted pt-2 pb-2 pl-3" type="text" placeholder="Tên của bạn...">
+								</div>
+								<div class="form-group">
+									<input class="size-13 w-100 border border-muted pt-2 pb-2 pl-3" type="tel" placeholder="Số điện thoại...">
+								</div>
+								<div class="form-group">
+									<input class="size-13 w-100 border border-muted pt-2 pb-2 pl-3" type="email" placeholder="Địa chỉ email...">
+								</div>
+								<div>
+									<textarea class="size-13 w-100 border border-muted pt-2 pb-2 pl-3" placeholder="Đánh giá của bạn về sách" style="height: 100px"></textarea>
+								</div>
+								<button type="submit" class="w-100 pt-2 pb-2 mt-3 bg-blue-7 text-light size-20">Gửi</button>
+							</form>
+						</div>
+						<div class="p-4 bg-white mb-4">
+							<p class="size-20 font-weight-bolder">Máy tính mini</p>
+							<form action="#" class="">
+								<div class="form-group position-relative mb-3">
+									<span class="text-blue-1 position-absolute fas fa-dollar-sign " style="right:10px; top: 15px"></span>
+									<input type="text" class="size-13 pt-2 pb-2 pl-3 w-100 border border-muted" placeholder="Giá sách">
+								</div>
+								<div class="form-group position-relative mb-3">
+									<span class="text-blue-1 position-absolute fas fa-dollar-sign" style="right:10px; top: 15px"></span>
+									<input type="text" class="pt-2 pb-2 pl-3 w-100 border border-muted size-13" placeholder="Giá vận chuyển">
+								</div>
+								<div class="form-group position-relative mb-3">
+									<span class="text-blue-1 position-absolute fas fa-percent" style="right:10px; top: 15px"></span>
+									<input type="text" class="pt-2 pb-2 pl-3 w-100 border border-muted size-13" placeholder="Phần trăm ưu đãi">
+								</div>
+								<div class="form-group position-relative mb-3">
+									<span class=" text-blue-1 position-absolute far fa-calendar-alt" style="right:10px; top: 15px"></span>
+									<input type="text" class="pt-2 pb-2 pl-3 w-100 border border-muted size-13" placeholder="Tích điểm thẻ thành viên">
+								</div>
+								<button type="submit" class="text-uppercase w-100 pt-2 pb-2 mt-3 bg-blue-7 text-light size-20">Tính toán</button>
+								<div class="size-14 text-dark text-center pt-4">Thành tiền: $969.04
+								</div>
+							</form>
+						</div>
+						<div class="p-4 bg-white">
+							<p class="size-20 font-weight-bolder mb-4">Bài đăng gần đây</p>
+							<ul>
+								<li class="d-flex mb-4">
+									<div class="listingGrid-sidebar-img mr-3">
+										<a href="house_detail.html">
+											<img src="../image/img06.png" class="w-100" alt="">
+										</a>
+									</div>
+									<div class="listingGrid-sidebar-text">
+										<div>
+											<a href="house_detail.html" class="size-16 text-dark font-weight-bold">Hành trình về Phương Đông</a>
+										</div>
+										<div class="size-16 text-blue-5">$ 920,000</div>
+										<div class="size-13 text-muted">Baird T. Spalding</div>
+									</div>
+								</li>
+								<li class="d-flex mb-4">
+									<div class="listingGrid-sidebar-img mr-3">
+										<a href="house_detail.html">
+											<img src="../image/img06.png" class="w-100" alt="">
+										</a>
+									</div>
+									<div class="listingGrid-sidebar-text">
+										<div>
+											<a href="house_detail.html" class="size-16 text-dark font-weight-bold">Mắt Biếc</a>
+										</div>
+										<div class="size-16 text-blue-5">$ 467,000</div>
+										<div class="size-13 text-muted">Nguyễn Nhật Ánh</div>
+									</div>
+								</li>
+								<li class="d-flex mb-4">
+									<div class="listingGrid-sidebar-img mr-3">
+										<a href="house_detail.html">
+											<img src="../image/img07.jpg" class="w-100" alt="">
+										</a>
+									</div>
+									<div class="listingGrid-sidebar-text">
+										<div>
+											<a href="house_detail.html" class="size-16 text-dark font-weight-bold">Cho tôi xin một vé đi tuổi thơ</a>
+										</div>
+										<div class="size-16 text-blue-5">$ 467,000</div>
+										<div class="size-13 text-muted">Nguyễn Nhật Ánh</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row latestProperties">
+					<div class="col-12 align-self-center mb-4 mt-5">
+						<h2 class="house-detail-similarProperty text-uppercase size-35 mb-5">
+							<strong>
+								<span class="text-dark border border-top-0 border-right-0 border-left-0 border-dark pb-4">Sách</span>
+								<span class="text-info">Tương tự</span>
+							</strong>	
+						</h2>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card mb-4">
+						  	<div class="card-img-top">
+						  		<img src="../image/img09.gif" alt="Card image cap">
+						  		<div class="phu_de"></div>
+						  	</div>
+						  	<div class="box">
+							  	<div class=""><i class="plane fas fa-heart"></i></div>
+							</div>
+						  	<div class="card-body">
+						    	<a class="card-title text-dark size-20" href="house_detail.html"><strong>Hành trình về Phương Đông</strong></a>
+						    	<address class="text-muted  d-flex pt-2">
+									<div class="icn mr-4 align-self-center"><i class="fas fa-user size-27"></i></div>
+									<div class="size-13 align-self-center">Baird T. Spalding</div>
+								</address>
+						    	<a href="#" class="btn btn-success pr-5 pl-5 pr-md-4 pl-md-4">For Sale</a>
+						    	<div class="pt-3 pb-3 border border-top-0 border-right-0 border-left-0 border-dark"><strong class="size-30">$ 490,000</strong><span class="size-16 text-muted"> / quyển</span>
+								</div>
+								<div class="row size-13 pt-3">
+									<div class="col-12">
+										<ul class="d-flex justify-content-between mb-0">
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Trang</p>
+												<p class="text-muted">2100 m2</p>
+											</li>
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Đọc thử</p>
+												<p class="text-muted">3</p>
+											</li>
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Còn</p>
+												<p class="text-muted">2</p>
+											</li>
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Bán</p>
+												<p class="text-muted">1</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+						  	</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card mb-4">
+						  	<div class="card-img-top">
+						  		<img src="../image/img07.jpg" alt="Card image cap">
+						  		<div class="phu_de"></div>
+						  	</div>
+						  	<div class="box">
+							  	<div class=""><i class="plane fas fa-heart"></i></div>
+							</div>
+						  	<div class="card-body">
+						    	<a class="card-title text-dark size-20" href="house_detail.html"><strong>Cho tôi xin một vé đi tuổi thơ</strong></a>
+						    	<address class="text-muted  d-flex pt-2">
+									<div class="icn mr-4 align-self-center"><i class="fas fa-user size-27"></i></div>
+									<div class="size-13 align-self-center">Nguyễn Nhật Ánh</div>
+								</address>
+						    	<a href="#" class="btn btn-success pr-5 pl-5 pr-md-4 pl-md-4">For Sale</a>
+						    	<div class="pt-3 pb-3 border border-top-0 border-right-0 border-left-0 border-dark"><strong class="size-30">$ 490,000</strong><span class="size-16 text-muted"> / quyển</span>
+								</div>
+								<div class="row size-13 pt-3">
+									<div class="col-12">
+										<ul class="d-flex justify-content-between mb-0">
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Trang</p>
+												<p class="text-muted">2100 m2</p>
+											</li>
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Đọc thử</p>
+												<p class="text-muted">3</p>
+											</li>
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Còn</p>
+												<p class="text-muted">2</p>
+											</li>
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Bán</p>
+												<p class="text-muted">1</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+						  	</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card mb-4">
+						  	<div class="card-img-top">
+						  		<img src="../image/img08.jpg" alt="Card image cap">
+						  		<div class="phu_de"></div>
+						  	</div>
+						  	<div class="box">
+							  	<div class=""><i class="plane fas fa-heart"></i></div>
+							</div>
+						  	<div class="card-body">
+						    	<a class="card-title text-dark size-20" href="house_detail.html"><strong>Tôi thấy hoa vàng trên cỏ xanh</strong></a>
+						    	<address class="text-muted  d-flex pt-2">
+									<div class="icn mr-4 align-self-center"><i class="fas fa-user size-27"></i></div>
+									<div class="size-13 align-self-center">Nguyễn Nhật Ánh</div>
+								</address>
+						    	<a href="#" class="btn btn-success pr-5 pl-5 pr-md-4 pl-md-4">For Sale</a>
+						    	<div class="pt-3 pb-3 border border-top-0 border-right-0 border-left-0 border-dark"><strong class="size-30">$ 490,000</strong><span class="size-16 text-muted"> / quyển</span>
+								</div>
+								<div class="row size-13 pt-3">
+									<div class="col-12">
+										<ul class="d-flex justify-content-between mb-0">
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Trang</p>
+												<p class="text-muted">2100 m2</p>
+											</li>
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Đọc thử</p>
+												<p class="text-muted">3</p>
+											</li>
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Còn</p>
+												<p class="text-muted">2</p>
+											</li>
+											<li>
+												<p class="text-dark font-weight-bold mb-0">Bán</p>
+												<p class="text-muted">1</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+						  	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class=" position-relative">
+		<div class="footerTop text-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-sx-12 col-sm-4 col">
+						<h2 class=" text-uppercase mb-5  size-25">cửa hàng sách</h2>
+						<p class="size-13">Nơi nghe/đọc sách online, pass sách online, mua sách online, thuê sách online và nhận chia sẻ cảm nhận của bạn free.</p>
+						<address class="mt-5 ">
+							<div class="d-flex mb-3">
+								<div class="mr-4"><i class="far fa-paper-plane text-primary"></i></div>
+								<div class="size-13">Chi Trung, Tân Chi, Tiên Du, Bắc Ninh, Việt Nam</div>
+							</div>
+							<div class="d-flex mb-3">
+								<div class="mr-4"><i class="fas fa-phone-alt text-primary"></i></div>
+								<div class="size-13"><a class="text-light" href="#">0375 384 273</a></div>
+							</div>
+							<div class="d-flex mb-3">
+								<div class="mr-4"><i class="far fa-envelope text-primary"></i></div>
+								<div class="size-13"><a class="text-light" href="#">pnvdieu@gmail.com</a></div>
+							</div>
+						</address>
+					</div>
+					<div class="col-sx-12 col-sm-4 col">
+						<h2 class=" text-uppercase mb-5  size-25">Liên kết hữu ích</h2>
+						<div class="d-flex size-13">
+							<ul class="mr-5">
+								<li><a class="text-light" href="#">Nhóm chúng tôi</a></li>
+								<li><a class="text-light" href="#">Về chúng tôi</a></li>
+								<li><a class="text-light" href="#">Liên hệ ủng hộ</a></li>
+								<li><a class="text-light" href="#">Contact Support</a></li>
+								<li><a class="text-light" href="#">FAQs</a></li>
+							</ul>
+							<ul>
+								<li><a class="text-light" href="">FAQ</a></li>
+								<li><a class="text-light" href="">Blog</a></li>
+								<li><a class="text-light" href="">Đối tác</a></li>
+								<li><a class="text-light" href="">Cách làm việc</a></li>
+								<li><a class="text-light" href="">Liên hệ</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sx-12 col-sm-4 col">
+						<h2 class=" text-uppercase mb-5 size-25">Sách hay</h2>
+						<ul>
+							<li class="d-flex">
+								<div class="mr-3 mb-4 ">
+									<a href="blog_detail.html">
+										<img src="../image/img22.jpg" class="" alt="">
+									</a>
+								</div>
+								<div>
+									<h3>
+										<a href="blog_detail.html" class="size-13 text-light">Girl in Pieces</a>
+									</h3>
+									<h4 class="size-16 text-info font-weight-bold">$ 1,27,000</h4>
+								</div>
+							</li>
+							<li class="d-flex">
+								<div class="mr-3 ">
+									<a href="blog_detail.html">
+										<img src="../image/img23.jpg" class="" alt="">
+									</a>
+								</div>
+								<div>
+									<h3>
+										<a href="blog_detail.html" class="size-13 text-light">Những người phụ nữ nhỏ bé</a>
+									</h3>
+									<h4 class="size-16 text-info font-weight-bold">$ 527,000</h4>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerBottom text-info pt-5 pb-5">
+			<div class="container d-md-flex flex-xs-column-reverse">
+					<div class="mb-4">2022 pnVDieu - Mọi quyền được bảo lưu</div>
+					<div class=" ml-auto">
+						<ul class="d-flex " style="gap:20px">
+							<li><a href="#" class="text-info"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" class="text-info"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" class="text-info"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#" class="text-info"><i class="fab fa-pinterest"></i></a></li>
+							<li><a href="#" class="text-info"><i class="fab fa-dribbble"></i></a></li>
+							<li><a href="#" class="text-info"><i class="fab fa-google"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="text-light position-absolute scrollTop size-13">Scroll Top <i class="fas fa-arrow-right text-light"></i></a>
+	</footer>
+<!-- Jquery Library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="../js/header-footer.js"></script>
+<script src="../js/house_detail.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+</body>
+</html>

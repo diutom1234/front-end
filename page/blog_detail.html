@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog-Detail</title>
+	<link rel="stylesheet" href="../css/all.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;567&family=Kaushan+Script&family=Licorice&family=Pacifico&family=Ubuntu:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/header-footer.css">
+	<link rel="stylesheet" href="../css/agent_list.css">
+	<link rel="stylesheet" href="../css/house_list.css">
+	<link rel="stylesheet" href="../css/blog.css">
+	<link rel="stylesheet" href="../css/owl.carousel.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+	<div class="homeBook">
+	</div>
+	<div class="register-box position-absolute bg-light">
+		<a href="https://www.facebook.com/dieucuteahehe/">
+			<div class="bg-primary border border-0 w-100 p-2 mb-4">
+				<i class="register-box-icon fab fa-facebook-f text-light size-20 mr-md-5 mr-sm-2 mr-1 ml-md-4 ml-sm-2 ml-1"></i>
+				<span class="register-box-text text-light font-weight-bolder size-20">Ngô Diệu</span>
+			</div>
+		</a>
+		<a href="https://www.instagram.com/lucxu1010/">
+			<div class="bg-primary border border-0 w-100 p-2 mb-4">
+				<i class="register-box-icon fab fa-instagram text-light size-20 mr-md-5 mr-sm-2 mr-1 ml-md-4 ml-sm-2 ml-1"></i>
+				<span class="register-box-text text-light font-weight-bolder size-20">lucxu1010</span>
+			</div>
+		</a>
+		<a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
+			<div class="bg-primary border border-0 w-100 p-2 mb-4">
+				<i class="register-box-icon fas fa-at text-light size-20 mr-md-5 mr-sm-2 mr-1 ml-md-4 ml-sm-2 ml-1"></i>
+				<span class="register-box-text text-light font-weight-bolder size-20">pnvdieu@gmail.com</span>
+			</div>
+		</a>
+	</div>
+	<header class="position-relative">
+		<div class="headerTop">
+			<div class="container">
+				<div class="row pt-2 pb-2 text-blue-1">
+					<div class="col-4 align-self-center overflow-hidden">
+						<time datetime="2022-02-25" class="TopBarTime ">Thứ 2: 08.00 AM - 18.00 PM</time>
+					</div>
+					<div class="col-8 text-right">
+						<ul class="m-0 d-flex justify-content-end">
+							<li class="pl-3 pr-3 border border-top-0 border-left-0 border-bottom-0 border-secondary icon-contact-li">
+								<ul class="icon-contact ">
+									<li class="ml-3 "><a href="#"><i class="fab fa-facebook-f text-blue-3"></i></a></li>
+									<li class="ml-3"><a href="#"><i class="fab fa-twitter text-blue-3"></i></a></li>
+									<li class="ml-3"><a href="#"><i class="fab fa-instagram text-blue-3"></i></a></li>
+									<li class="ml-3"><a href="#"><i class="fab fa-google text-blue-3"></i></a></li>
+								</ul>
+							</li>
+							<li class="dropdown pl-3 pr-3 border border-top-0 border-left-0 border-bottom-0 border-secondary">
+	    						<a class="dropdown-toggle text-blue-1" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+	       						USD ($) </a>
+	    						<div class="dropdown-menu">
+	      							<a class="dropdown-item" href="#">USD</a>
+	      							<a class="dropdown-item" href="#">VND</a>
+	      							<a class="dropdown-item" href="#"><i class="fas fa-yen-sign"></i></a>
+								</div>
+							</li>
+							<li class="dropdown pl-3 pr-3">
+	    						<a class="dropdown-toggle text-blue-1" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+	       						Tiếng Việt</a>
+	    						<div class="dropdown-menu">
+	      							<a class="dropdown-item" href="#">English</a>
+	      							<a class="dropdown-item" href="#">日本語</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="headerMiddle position-relative">
+			<div class="container">
+				<div class="row pt-4 pb-4 size-13">
+					<div class="col-md-2 col-6 align-self-center">
+						<img src="../image/logo.png" alt="" class="img-fluid">
+					</div>
+					<div class="col-md-10 col-6">
+						<ul class="m-0 d-flex justify-content-end text-dark">
+							<li class="pl-md-3 pr-md-3 d-flex">
+								<div class="header-phone mr-2">
+									<i class="fas fa-phone-alt text-info"></i>
+								</div>
+								<div class="header-phone-text">
+									<div>0375384273</div>
+									<div>pnvdieu@gmail.com</div>
+								</div>
+							</li>
+							<li class="pl-md-3 pr-md-3 d-flex header-map">
+								<div class="header-phone mr-2">
+									<i class="fas fa-map-marker-alt text-info"></i>
+								</div>
+								<div class="">
+									<div>Chi Trung, Tân Chi, Tiên Du</div>
+									<div>Bắc Ninh, Việt Nam</div>
+								</div>
+							</li>
+							<li class=" pl-md-3 pr-md-3 header-search">
+								<i class="fas fa-search text-blue-1 border p-3 btnSearch"></i>
+							</li>
+							<li class="bars d-none align-self-center ml-2"><i class="fas fa-bars"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="search-box position-absolute">
+				<div class="custom-file">
+			      	<div class="input-group">
+				        <div class="input-group-prepend">
+				          	<div class="input-group-text"><i class="fas fa-search btnSearch"></i></div>
+				        </div>
+				        <input type="text" class="form-control" id="" placeholder="Search Everything ...">
+				    </div>
+			    </div>
+			</div>
+		</div>
+		<div class="headerBottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="row position-absolute headerBottom_absolute w-100">
+							<div class="col-12 d-flex">
+								<div class="header-list pt-3 pb-3">
+									<div class="d-flex header-list-child">
+				                    	<div class="active align-self-center ">
+				                        	<a class="text-light pl-4 home" href="#">Trang chủ <i class="fas fa-angle-down"></i></a>
+				                        	<div class="dropdown-menu dropdown-menu-home bg-light pl-4 mt-4 home_list">
+								                <ul class="list-unstyled">
+								                    <li class="pt-4"><a class="text-muted" href="../index.html">Trang chủ 1</a></li>
+								                </ul>
+									        </div>
+				                        </div>
+				                        <div class="active align-self-center ">
+				                        	<a class="text-light pl-4 properties" href="#">Sách <i class="fas fa-angle-down"></i></a>
+				                        </div>
+				                        <div class="active align-self-center ">
+				                        	<a class="text-light pl-4 pages" href="#">Chi tiết <i class="fas fa-angle-down"></i></a>
+				                        	<div class="dropdown-menu dropdown-menu-pages bg-light pl-4 mt-4 pages_list">
+								                <ul class="list-unstyled">
+								                    <li class="pt-4"><a class="text-muted" href="house_detail.html">Tác phẩm hay</a></li>
+								                    <li class="pt-4"><a class="text-muted" href="about.html">Chúng tôi</a></li>
+								                    <li class="pt-4"><a class="text-muted" href="agent_list.html">Tác Giả</a></li>
+								                    <li class="pt-4"><a class="text-muted" href="agent_detail.html">Chi tiết Tác Giả</a></li>
+								                </ul>
+									        </div>
+				                        </div>
+				                        <div class="active align-self-center ">
+				                        	<a class="text-light pl-4 blog" href="#">Blog <i class="fas fa-angle-down"></i></a>
+				                        	<div class="dropdown-menu dropdown-menu-blog bg-light pl-4 mt-4 blog_list">
+								                <ul class="list-unstyled">
+								                    <li class="pt-4"><a class="text-muted" href="blog.html">Blog</a></li>
+								                    <li class="pt-4"><a class="text-muted" href="blog_detail.html">Blog detail</a></li>
+								                </ul>
+									        </div>
+				                        </div>
+				                        <div class="active align-self-center ">
+				                        	<a class="text-light pl-4 contact" href="#">Liên hệ</a>
+				                        </div>
+									</div>
+								</div>
+								<button class="header-login">
+		                        	<div class="d-flex justify-content-center">
+			                    		<div><a href="login.html"><i class="far fa-user text-light"></i></a></div>
+			                    		<div class=" header-login-text"><a class="text-light" href="login.html">Đăng nhập</a></div>
+			                    	</div>
+								</button>
+		                    	<button class="header-register">
+			                    	<div class="d-flex justify-content-center">
+			                    		<div><a href="#"><i class="fas fa-pencil-alt text-light"></i></a></div>
+			                    		<div class=" header-register-text"><a href="#" class="text-light">Đăng kí</a></div>
+			                    	</div>
+		                    	</button>
+								<button class="submit-property text-light text-center align-self-center pt-3 pb-3 border border-0"> + Đóng Góp</button>
+							</div>
+						    <div class="col-md-12 properties_list">
+					            <div class="d-flex bg-light pt-4 pl-5">
+					                <ul class="properties_list_choose list-unstyled col-md-3">
+					                    <p class="submenu-title font-weight-bolder size-20 properties_list_title">TOÀN BỘ SÁCH</p>
+					                    <li><a href="house_list.html">Danh sách truyện</a></li>
+					                    <li><a href="#">Khác</a></li>
+					                </ul>
+					                <ul class="list-unstyled col-md-3 properties_list_choose">
+					                    <p class="submenu-title font-weight-bolder size-20 properties_list_title">TOP BÁN CHẠY</p>
+					                    <li><a href="#">404</a></li>
+					                    <li><a href="#">Từ 5 sao</a></li>
+					                    <li><a href="#">Từ 4 sao</a></li>
+					                    <li><a href="#">Từ 3 sao</a></li>
+					                </ul>
+					                <ul class="list-unstyled col-md-3 properties_list_choose">
+					                    <p class="submenu-title  font-weight-bolder size-20 properties_list_title">SÁCH MỚI</p>
+					                    <li><a href="#">404</a></li>
+					                    <li><a href="#">Xếp Theo Nhà Sách</a></li>
+					                    <li><a href="#">Xếp Theo Thể Loại</a></li>
+					                    <li><a href="#">Ưu đãi</a></li>
+					                </ul>
+					                <ul class="list-unstyled col-md-3 properties_list_choose">
+					                    <p class="submenu-title font-weight-bolder size-20 properties_list_title">ĐƯỢC YÊU THÍCH</p>
+					                    <li><a href="#">404</a></li>
+					                    <li><a href="#">Xếp Theo Nhà Sách</a></li>
+					                    <li><a href="#">Xếp Theo Thể Loại</a></li>
+					                    <li><a href="#">Ưu đãi</a></li>
+					                </ul>
+					            </div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29799.884209116957!2d105.8561134!3d20.9932173!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1645889989506!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" style="object-fit: cover; position: absolute; z-index: 3; top: 0" class="ggmap"></iframe>
+		</section>
+		<form action="#" class="headerForm pt-5 pb-3 bg-blue-4">
+			<div class="container pt-5 pb-3">
+				<div class="row">
+					<div class="col-12 col-md-5 col-lg-4 align-self-center mb-3">
+						<div class="form-group mb-0">
+							<input type="text" class="border border-0 p-2 w-100 rounded" placeholder="Thể loại...">
+						</div>
+					</div>
+					<div class="col-12 col-md-4 col-lg-2 align-self-center mb-3">
+						<div class="form-group mb-0">
+							<input type="text" class="p-2 border border-0 rounded w-100" placeholder="Quốc gia...">
+							<i class="fas fa-fingerprint icnInput text-ccc position-absolute size-25" style="top: 10px; right: 20px"></i>
+						</div>
+					</div>
+					<div class="col-12 col-md-3 col-lg-2 align-self-center mb-3">
+						<div class="form-group mb-0">
+							<select data-placeholder="All Areas" class="border border-dark p-2 w-100">
+								<option value="1" class="size-14">All Areas</option>
+								<option value="2" class="size-14">All Areas</option>
+								<option value="2" class="size-14">All Areas</option>
+								<option value="2" class="size-14">All Areas</option>
+							</select>
+						</div>
+					</div>
+					<div class="headerForm-advanced col-12 col-md-6 col-lg-2 align-self-center mb-3">
+						<div class="advanced">
+							<i class="fas fa-plus p-2 bg-info plus-advanced text-light"></i>
+							<span class="text-muted">Nâng cao</span>
+						</div>
+					</div>
+					<div class="headerForm-searchAdvanced col-12 col-md-6 col-lg-2 align-self-center mb-3">
+						<div class="text-right ">
+							<button type="button" class="p-2 w-100 bg-blue-5 text-light text-uppercase ">Tìm kiếm</button>
+						</div>
+					</div>
+					<div class="headerForm-list col-12 mt-3">
+						<div class="row">
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+								  	<label class="form-check-label" for="inlineCheckbox1">Sách mới</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Sách nổi bật</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Sách bán chạy</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Giá thấp</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Giá cao</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Có bìa</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Câu nói hay</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Internet</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Bedding</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Cot</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Computer</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Computer</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Grill</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Iron</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Cable TV</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Dishwasher</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Hairdryer</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Juicer</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Cleaning after exit</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">DVD</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+								  	<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Heating</label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="pl-3">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								  	<label class="form-check-label" for="inlineCheckbox2">Lift</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<section class="blogDetail agentList listingGrid pt-4 pb-1 bg-blue-6">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-10">
+						<ul class="d-flex pathPistingGrid">
+							<li><a href="../index.html" class="size-13 text-muted returnPage">Trang chủ</a></li>
+							<li><a href="../index.html" class="size-13 text-muted returnPage">Blog</a></li>
+							<li><a href="#" class="size-13 text-muted returnPage">Những kỹ năng bạn có thể áp dụng khi đọc sách</a></li>
+						</ul>
+						<p class="size-30 text-blue-5 font-weight-bolder">Blog Single</p>
+					</div>
+					<div class="col-12 col-md-2 align-self-center">
+						<ul class="d-flex justify-content-end" style="gap: 10px">
+							<li>
+								<a href="#">
+									<i class="fas fa-share-alt text-blue-1 size-22"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fas fa-print text-blue-1 size-22"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="blogDetail-main overflow-hidden col-lg-8 col-12">
+						<div class="pt-4 pr-3 pl-3 pb-3 bg-white mb-4">
+							<div class="">
+								<div class="overflow-hidden">
+									<div class="card-img-top">
+										<img src="../image/img10.jpg" alt="">
+										<div class="phu_de_blogDetail"></div>
+									</div>
+								</div>
+								<div class="card-body">
+									<div class="">
+										<a href="blog_detail.html" class="text-dark font-weight-bolder size-20">Áp dụng những gì bạn đọc bằng cách tóm tắt</a>
+										<div class="d-flex mt-3 mb-4 datetime">
+											<a href="#" class="btn btn-info pr-4 pl-4 pr-xl-3 pl-xl-3 size-12 btn-aliTufan">Ali Tufan</a>
+											<div class="align-self-center">
+												<span class="pl-3 size-13 text-blue-1 date">3/3/2022</span>
+											</div>
+											<div class="align-self-center">
+												<span class="pl-3 size-13 text-blue-1 cmt">12 phản hồi</span>
+											</div>
+										</div>
+										<p class="size-13 text-blue-1 ">Tóm tắt những gì bạn đọc cũng có thể cải thiện kỹ năng đọc cả bạn. Tóm tắt buộc bạn phải nhớ các chi tiết cụ thể và các chủ đề trọng tâm về những gì bạn đọc được bằng từ ngữ của riêng bạn và thông qua quan điểm độc đáo của bạn. Bạn có thể thử tóm tắt bằng lời những gì bạn đọc bằng cách chia sẻ thông tin với một người bạn hoặc viết một bản tóm tắt ngắn để giúp bạn ghi nhớ và hiểu những gì bạn đọc.</p>
+										<p class="size-13 text-blue-1 ">Một phương pháp hiệu quả cao khác để cải thiện kỹ năng đọc của bạn là ghi chú trong khi đọc. Ví dụ: bạn có thể ghi chú trong khi đọc một cuốn tiểu thuyết viễn tưởng để hiểu sâu hơn về sự lựa chọn ngôn ngữ của tác giả hoặc bạn có thể viết ra những từ vựng mới trong khi đọc một tạp chí khoa học. Ghi chú hiệu quả có thể khiến bạn đặt câu hỏi và tạo mối liên hệ với những gì bạn đọc.</p>
+										<p class="size-13 text-blue-1 ">Khi bạn đọc các văn bản khác nhau, bạn có thể áp dụng một số chiến lược chính để giúp bạn tăng khả năng hiểu của mình. Ví dụ: khi xem trước một văn bản, bạn có thể xác định cấu trúc văn bản là thông tin, thuyết phục hoặc hướng dẫn. Bạn cũng có thể xác định các yếu tố chính của các văn bản khác nhau như chủ đề trung tâm, các vấn đề và giải pháp hoặc các ý tưởng so sánh được trình bày trong những gì bạn đọc.</p>
+										<div class="p-5 bg-blue-6 mb-3">
+											<div class="size-13 text-blue-1 pl-3 pt-2 pb-2 border border-top-0 border-bottom-0 border-right-0 border-dark" >" Vẽ sơ đồ dàn ý. Sơ đồ dàn ý là một công cụ rất hữu ích, cách minh họa trực quan hơn, ghi nhớ thuận tiện hơn. Sau khi đọc một cuốn sách, nó sẽ dễ dàng hơn để xem lại hơn. "
+											</div>
+										</div>
+										<p class="text-dark font-weight-bolder size-20">Tìm cho mình hội nhóm để nâng cao kỹ năng đọc sách hiệu quả </p>
+										<p class="size-13 text-blue-1 ">Con người là động vật sống theo nhóm, và họ cũng có tâm lý bầy đàn rõ ràng. Tìm một nhóm đọc và cùng đọc với nhau sẽ khiến quá trình diễn ra tương đối dễ dàng, thấy mọi người đều chăm chỉ và kiên trì nên mình cũng làm theo.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="p-4 bg-white blogDetail-tags mb-4">
+							<p class="size-20 font-weight-bolder mb-4">Tags</p>
+							<ul class="list-unstyled blogDetail-tagsList d-flex flex-wrap">
+								<li class="m-1"><a href="#"><button type="button" class="btn btn-secondary size-12">nấu ăn</button></a></li>
+								<li class="m-1"><a href="#"><button type="button" class="btn btn-secondary size-12">giao tiếp</button></a></li>
+								<li class="m-1"><a href="#"><button type="button" class="btn btn-secondary size-12">luyện chữ hán</button></a></li>
+								<li class="m-1"><a href="#"><button type="button" class="btn btn-secondary size-12">học kanji</button></a></li>
+								<li class="m-1"><a href="#"><button type="button" class="btn btn-secondary size-12">nihongo</button></a></li>
+							</ul>
+						</div>
+						<div class="p-4 bg-white blogDetail-tags mb-4">
+							<div class="row">
+								<div class="col-6 d-flex">
+									<a href="#" class="pr-3 align-self-center text-blue-5">
+										<i class="fas fa-arrow-left size-20"></i>
+									</a>
+									<div>
+										<div class="size-20 text-blue-5 font-weight-bolder">Bài trước
+										</div>
+										<div class="size-12 text-blue-1">Đừng đọc thầm từng từ</div>
+									</div>
+								</div>
+								<div class="col-6 d-flex justify-content-end">
+									<div class="text-left">
+										<div class="size-20 text-blue-5 font-weight-bolder">Bài sau
+										</div>
+										<div class="size-12 text-blue-1">Sách khác nhau sẽ đọc khác nhau</div>
+									</div>
+									<a href="#" class="pl-3 align-self-center text-blue-5">
+										<i class="fas fa-arrow-right size-20"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="mb-4">
+							<div class=" variable owl-carousel owl-theme slideBlogDetail">
+								<div class="card">
+									<div class="overflow-hidden">
+										<div class="card-img-top">
+											<img src="../image/img12.jpg" alt="">
+											<div class="phu_de_blogDetail"></div>
+										</div>
+									</div>
+	  								<div class="card-body ">
+										<div class="border border-top-0 border-right-0 border-left-0 border-muted pb-4">
+											<a href="blog_detail.html" class="text-dark font-weight-bolder size-20">Những cuốn sách bạn nhất định nên có</a>
+											<div class="d-flex mt-3 mb-3 datetime">
+												<a href="#" class="btn btn-info pr-4 pl-4 pr-xl-3 pl-xl-3 size-12 btn-aliTufan">Ali Tufan</a>
+												<div class="align-self-center">
+													<span class="pl-3 size-13 text-blue-1 date">3/3/2022</span>
+												</div>
+												<div class="align-self-center">
+													<span class="pl-3 size-13 text-blue-1 cmt">12 phản hồi</span>
+												</div>
+											</div>
+											<div class="size-13 text-blue-1 ">Các bạn có hay tự hỏi mình “ĐIỀU GÌ ĐÁNG TIẾC NHẤT” chưa? Nhiều người có cũng sẽ có nhiều người không đúng không nào? Đối với tôi, lại tự thấy “ĐỌC” chưa đủ – ĐỌC thiếu là điều đáng tiếc nhất. Vậy tại sao?...</div>
+										</div>
+										<div class="pt-3 pb-3 d-flex justify-content-between">
+											<div>
+												<a href="#" class="size-14 text-primary"><strong>Đọc bài viết</strong></a>
+											</div>
+											<a href="#"><i class="fas fa-arrow-right size-20 text-primary"></i></a>
+										</div>
+	  								</div>
+								</div>
+							</div>
+						</div>
+						<div class="p-4 bg-white blogDetail-tags mb-4">
+							<div class="row mb-4 border border-top-0 border-right-0 border-left-0 border-muted pb-5">
+								<div class="col-md-8 col-12 size-20 font-weight-bolder align-self-center">
+									Xếp hạng &amp; đánh giá
+								</div>
+								<div class="col-md-4 col-12 text-right">
+									<button type="submit" class=" w-100 pt-2 pb-2 bg-blue-7 text-light size-13">Viết bài đánh giá mới</button>
+								</div>
+							</div>
+							<div class="row mb-4 border border-top-0 border-right-0 border-left-0 border-muted pb-5">
+								<div class="col-md-8 col-12 ">
+									<div class="d-flex align-items-center">
+										<div>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<span class="size-13 text-blue-1 ml-1">3</span>
+										</div>
+										<div class="progress ml-2" style="width: 50%; height: 6px">
+											<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="d-flex align-items-center">
+										<div>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<span class="size-13 text-blue-1 ml-1">4</span>
+										</div>
+										<div class="progress ml-2" style="width: 50%; height: 6px">
+											<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="d-flex align-items-center">
+										<div>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<span class="size-13 text-blue-1 ml-1">3</span>
+										</div>
+										<div class="progress ml-2" style="width: 50%; height: 6px">
+											<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="d-flex align-items-center">
+										<div>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<span class="size-13 text-blue-1 ml-1">2</span>
+										</div>
+										<div class="progress ml-2" style="width: 50%; height: 6px">
+											<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="d-flex align-items-center">
+										<div>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<i class="fas fa-star text-warning size-10"></i>
+											<span class="size-13 text-blue-1 ml-1">0</span>
+										</div>
+										<div class="progress ml-2" style="width: 50%; height: 6px">
+											<div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-12 text-left">
+									<div class="bg-blue-6 p-4 text-center">
+										<i class="fas fa-star text-warning size-10"></i>
+										<i class="fas fa-star text-warning size-10"></i>
+										<i class="fas fa-star text-warning size-10"></i>
+										<i class="fas fa-star text-warning size-10"></i>
+										<i class="fas fa-star text-warning size-10"></i>
+										<div class="size-30 text-blue-5"><strong>4.3</strong></div>
+										<div class="size-14 text-blue-1">Đánh giá tổng thể</div>
+									</div>
+								</div>
+							</div>
+							<div class="row mb-4">
+								<div class="col-12 size-20 font-weight-bolder align-self-center mb-4">
+									3 Đánh giá
+								</div>
+								<div class="col-12 d-flex mb-4">
+									<a href="#" class=" overflow-hidden" style="width: 100px; height: 75px">
+										<img src="../image/img22.jpg" class="w-100 h-100 " style="object-fit: cover;" alt="" >
+									</a>
+									<div class="w-100 d-flex flex-wrap justify-content-between">
+										<div class="text-info size-13 ml-2 align-self-top">
+											John Milk
+										</div>
+										<div class="ml-2">
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<span class="size-13 text-success">3/3/2022</span>
+										</div>
+										<div class="size-13 text-blue-1 ml-2">
+											Trong cuộc đời mỗi người, việc chuẩn bị tâm lý cho mỗi sáng thức dây ai cũng phải cần. Tuy nhiên, không phải ai cũng sống giống nhau các bạn ạ.
+										</div>
+									</div>
+								</div>
+								<div class="col-12 d-flex mb-4">
+									<a href="#" class=" overflow-hidden" style="width: 100px; height: 75px">
+										<img src="../image/img22.jpg" class="w-100 h-100 " style="object-fit: cover;" alt="" >
+									</a>
+									<div class="w-100 d-flex flex-wrap justify-content-between">
+										<div class="text-info size-13 ml-2 align-self-top">
+											Ali Tufan
+										</div>
+										<div class="ml-2">
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<span class="size-13 text-success">3/3/2022</span>
+										</div>
+										<div class="size-13 text-blue-1 ml-2">
+											Bài học học mãi chưa bao giờ hết. Học cách chuẩn bị tâm lý cho mỗi một hành trình sắp tới không hề đơn giản.
+										</div>
+									</div>
+								</div>
+								<div class="col-12 d-flex mb-4">
+									<a href="#" class=" overflow-hidden" style="width: 100px; height: 75px">
+										<img src="../image/img23.jpg" class="w-100 h-100 " style="object-fit: cover;" alt="" >
+									</a>
+									<div class="w-100 d-flex flex-wrap justify-content-between">
+										<div class="text-info size-13 ml-2 align-self-top">
+											Robert Tufan
+										</div>
+										<div class="ml-2">
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<i class="fas fa-star text-success size-10"></i>
+											<span class="size-13 text-success">3/3/2022</span>
+										</div>
+										<div class="size-13 text-blue-1 ml-2">
+											Cuốn này đơn giản mà dễ đọc, lại vô cùng thú vị. Bạn đọc đi rồi tự kiếm cho mình “đàn bò” to bự để chăn. Mà chăn bò này không lấy sữa được mà chỉ muốn chúng biến mất thôi :))
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="yourReviewsp-4 p-4 bg-white mb-4">
+							<div class="row mb-4 border border-top-0 border-right-0 border-left-0 border-muted pb-3">
+								<div class="col-md-8 col-12 size-20 font-weight-bolder align-self-center">
+									Đánh giá của bạn
+								</div>
+							</div>
+							<form >
+								<div class="row">
+									<div class="col-12 col-md-6">
+										<div class="form-group">
+											<input type="text" placeholder="Tên của bạn..." class="form-control size-13">
+										</div>
+									</div>
+									<div class="col-12 col-md-6">
+										<div class="form-group">
+											<input type="email" placeholder="Địa chỉ email..." class="form-control size-13">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12 col-md-6">
+										<div class="form-group">
+											<input type="tel" placeholder="Số điện thoại..." class="form-control size-13">
+										</div>
+									</div>
+									<div class="col-12 col-md-6">
+										<div class="form-group">
+											<input type="url" placeholder="Website" class="form-control size-13">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<textarea class="form-control size-13" placeholder="Nội dung đánh giá" style="height: 100px;"></textarea>
+								</div>
+								<div class="form-group">
+									<span class="text-blue-1 size-13">Đánh giá: </span>
+									<i class="fas fa-star text-warning size-10"></i>
+									<i class="fas fa-star text-warning size-10"></i>
+									<i class="fas fa-star text-warning size-10"></i>
+									<i class="fas fa-star text-warning size-10"></i>
+									<i class="fas fa-star text-warning size-10"></i>
+								</div>
+								<button type="submit" class=" w-100 pt-2 pb-2 bg-blue-5 text-light size-20">Gửi</button>
+							</form>
+						</div>
+					</div>
+					<div class="blogDetail-sidebar overflow-hidden col-lg-4 col-12">
+						<div class="bg-white p-4 mb-4">
+							<div class="">
+								<input type="text" class="size-13 border border-muted pt-3 pb-3 pl-3 w-100 h-100" placeholder="Search">
+								<i class="fas fa-search size-20 text-blue-1 position-absolute" style="right: 50px; top: 40px"></i>
+							</div>
+						</div>
+						<div class="bg-white p-4 mb-4">
+							<div>
+								<div class="size-20 text-blue-5 mb-4">
+									<strong>Thể loại</strong>
+								</div>
+								<div class="mb-3">
+									<a href="#" class="size-13 text-blue-1">Xu hướng 2022</a>
+								</div>
+								<div class="mb-3">
+									<a href="#" class="size-13 text-blue-1">Sách cẩm nang</a>
+								</div>
+								<div class="mb-3">
+									<a href="#" class="size-13 text-blue-1">Sách thiết kế</a>
+								</div>
+								<div class="mb-3">
+									<a href="#" class="size-13 text-blue-1">Sách hiện đại</a>
+								</div>
+								<div class="mb-3">
+									<a href="#" class="size-13 text-blue-1">Sách bất hủ</a>
+								</div>
+							</div>
+						</div>
+						<div class="p-4 bg-white mb-4">
+							<div>
+								<p class="size-20 font-weight-bolder mb-4">Bài đăng gần đây</p>
+								<ul>
+									<li class="d-flex mb-4">
+										<div class="listingGrid-sidebar-img mr-3">
+											<a href="house_detail.html">
+												<img src="../image/img09.gif" class="" alt="">
+											</a>
+										</div>
+										<div class="listingGrid-sidebar-text">
+											<div>
+												<a href="house_detail.html" class="size-16 text-dark font-weight-bold">Hành trình về Phương Đông</a>
+											</div>
+											<div class="size-13 text-muted">Baird T. Spalding</div>
+										</div>
+									</li>
+									<li class="d-flex mb-4">
+										<div class="listingGrid-sidebar-img mr-3">
+											<a href="house_detail.html">
+												<img src="../image/img06.png" class="" alt="">
+											</a>
+										</div>
+										<div class="listingGrid-sidebar-text">
+											<div>
+												<a href="house_detail.html" class="size-16 text-dark font-weight-bold">Mắt Biếc</a>
+											</div>
+											<div class="size-13 text-muted">Nguyễn Nhật Ánh</div>
+										</div>
+									</li>
+									<li class="d-flex mb-4">
+										<div class="listingGrid-sidebar-img mr-3">
+											<a href="house_detail.html">
+												<img src="../image/img07.jpg" class="" alt="">
+											</a>
+										</div>
+										<div class="listingGrid-sidebar-text">
+											<div>
+												<a href="house_detail.html" class="size-16 text-dark font-weight-bold">Cho tôi xin một vé đi tuổi thơ</a>
+											</div>
+											<div class="size-13 text-muted">Nguyễn Nhật Ánh</div>
+										</div>
+									</li>
+								</ul>
+							</div>	
+						</div>
+						<div class="p-4 bg-white blogDetail-pr mb-4">
+							<div>
+								<p class="size-20 font-weight-bolder mb-4">Ảnh của chúng tôi</p>
+								<div class="row">
+									<div class="col-4 col-md-6 col-lg-4 mb-3">
+										<div class="blogDetail-pr-img overflow-hidden">
+											<img src="../image/img09.gif" alt="">
+										</div>
+									</div>
+									<div class="col-4 col-md-6 col-lg-4 mb-3">
+										<div class="blogDetail-pr-img overflow-hidden">
+											<img src="../image/img06.png" alt="">
+										</div>
+									</div>
+									<div class="col-4 col-md-6 col-lg-4 mb-3">
+										<div class="blogDetail-pr-img overflow-hidden">
+											<img src="../image/img07.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-4 col-md-6 col-lg-4 mb-3">
+										<div class="blogDetail-pr-img overflow-hidden">
+											<img src="../image/img05.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-4 col-md-6 col-lg-4 mb-3">
+										<div class="blogDetail-pr-img overflow-hidden">
+											<img src="../image/img08.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-4 col-md-6 col-lg-4 mb-3">
+										<div class="blogDetail-pr-img overflow-hidden">
+											<img src="../image/img04.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="p-4 bg-white blogDetail-tags mb-4">
+							<p class="size-20 font-weight-bolder mb-4">Tags</p>
+							<ul class="list-unstyled blogDetail-tagsList d-flex flex-wrap">
+								<li class="m-1"><a href="#"><button type="button" class="btn btn-secondary size-12">nấu ăn</button></a></li>
+								<li class="m-1"><a href="#"><button type="button" class="btn btn-secondary size-12">giao tiếp</button></a></li>
+								<li class="m-1"><a href="#"><button type="button" class="btn btn-secondary size-12">luyện chữ hán</button></a></li>
+								<li class="m-1"><a href="#"><button type="button" class="btn btn-secondary size-12">học kanji</button></a></li>
+								<li class="m-1"><a href="#"><button type="button" class="btn btn-secondary size-12">nihongo</button></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="agentList mb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-2 mt-5 w-100">
+						<div>
+							<i class="fas fa-envelope text-blue-1 size-100"></i>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6 mt-5 w-100">
+						<div class="">
+							<p class="text-dark size-25"><strong>Đăng kí nhận thông báo của chúng tôi.</strong></p>
+							<p class="text-muted size-12 ">Riêng với các thành viên thân thiết (thành viên đã sử dụng dịch vụ tại pnVDieu) sẽ được chúng tôi cập nhật liên tục thông tin tới cho các bạn.</p>
+						</div>
+					</div>
+					<div class="col-12 col-lg-4 align-self-center mt-5 w-100">
+					  	<div class="input-group w-100">
+					  		<form class="d-flex w-100">
+					      		<input type="email" class="form-control border border-top-0 border-right-0 border-left-0 border-dark" placeholder="Email">
+					      		<button class="align-self-center border border-0"><i class="fas fa-paper-plane text-blue-1 size-20"></i></button>
+						  	</form>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class=" position-relative">
+		<div class="footerTop text-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-sx-12 col-sm-4 col">
+						<h2 class=" text-uppercase mb-5  size-25">cửa hàng sách</h2>
+						<p class="size-13">Nơi nghe/đọc sách online, pass sách online, mua sách online, thuê sách online và nhận chia sẻ cảm nhận của bạn free.</p>
+						<address class="mt-5 ">
+							<div class="d-flex mb-3">
+								<div class="mr-4"><i class="far fa-paper-plane text-primary"></i></div>
+								<div class="size-13">Chi Trung, Tân Chi, Tiên Du, Bắc Ninh, Việt Nam</div>
+							</div>
+							<div class="d-flex mb-3">
+								<div class="mr-4"><i class="fas fa-phone-alt text-primary"></i></div>
+								<div class="size-13"><a class="text-light" href="#">0375 384 273</a></div>
+							</div>
+							<div class="d-flex mb-3">
+								<div class="mr-4"><i class="far fa-envelope text-primary"></i></div>
+								<div class="size-13"><a class="text-light" href="#">pnvdieu@gmail.com</a></div>
+							</div>
+						</address>
+					</div>
+					<div class="col-sx-12 col-sm-4 col">
+						<h2 class=" text-uppercase mb-5  size-25">Liên kết hữu ích</h2>
+						<div class="d-flex size-13">
+							<ul class="mr-5">
+								<li><a class="text-light" href="#">Nhóm chúng tôi</a></li>
+								<li><a class="text-light" href="#">Về chúng tôi</a></li>
+								<li><a class="text-light" href="#">Liên hệ ủng hộ</a></li>
+								<li><a class="text-light" href="#">Contact Support</a></li>
+								<li><a class="text-light" href="#">FAQs</a></li>
+							</ul>
+							<ul>
+								<li><a class="text-light" href="">FAQ</a></li>
+								<li><a class="text-light" href="">Blog</a></li>
+								<li><a class="text-light" href="">Đối tác</a></li>
+								<li><a class="text-light" href="">Cách làm việc</a></li>
+								<li><a class="text-light" href="">Liên hệ</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sx-12 col-sm-4 col">
+						<h2 class=" text-uppercase mb-5 size-25">Sách hay</h2>
+						<ul>
+							<li class="d-flex">
+								<div class="mr-3 mb-4 ">
+									<a href="blog_detail.html">
+										<img src="../image/img22.jpg" class="" alt="">
+									</a>
+								</div>
+								<div>
+									<h3>
+										<a href="blog_detail.html" class="size-13 text-light">Girl in Pieces</a>
+									</h3>
+									<h4 class="size-16 text-info font-weight-bold">$ 1,27,000</h4>
+								</div>
+							</li>
+							<li class="d-flex">
+								<div class="mr-3 ">
+									<a href="blog_detail.html">
+										<img src="../image/img23.jpg" class="" alt="">
+									</a>
+								</div>
+								<div>
+									<h3>
+										<a href="blog_detail.html" class="size-13 text-light">Những người phụ nữ nhỏ bé</a>
+									</h3>
+									<h4 class="size-16 text-info font-weight-bold">$ 527,000</h4>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerBottom text-info pt-5 pb-5">
+			<div class="container d-md-flex flex-xs-column-reverse">
+					<div class="mb-4">2022 pnVDieu - Mọi quyền được bảo lưu</div>
+					<div class=" ml-auto">
+						<ul class="d-flex " style="gap:20px">
+							<li><a href="#" class="text-info"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" class="text-info"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" class="text-info"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#" class="text-info"><i class="fab fa-pinterest"></i></a></li>
+							<li><a href="#" class="text-info"><i class="fab fa-dribbble"></i></a></li>
+							<li><a href="#" class="text-info"><i class="fab fa-google"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="text-light position-absolute scrollTop size-13">Scroll Top <i class="fas fa-arrow-right text-light"></i></a>
+	</footer>
+<!-- Jquery Library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="../js/header-footer.js"></script>
+<script src="../js/house_list.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/blog_detail.js"></script>
+</body>
+</html>

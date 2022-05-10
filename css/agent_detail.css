@@ -1,0 +1,14 @@
+.jennieWilson-info li{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 40px;
+}
+textarea{
+	height: 150px;
+}
+.jennieWilson-item img{
+	width: 100%;
+}
